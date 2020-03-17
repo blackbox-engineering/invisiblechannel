@@ -416,7 +416,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url(../img/bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center
+  background-position: center center;
   background-color:black;
   padding: 150px 0;
   color: #fff;
