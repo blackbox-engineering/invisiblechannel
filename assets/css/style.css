@@ -407,11 +407,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.hero-wrapper {
+  background-color: black;
+}
 .hero {
   display: table;
   position: relative;
   background-image: url(../img/bg1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center
+  background-color:black;
   padding: 150px 0;
   color: #fff;
   width: 100%;
@@ -531,9 +537,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   vertical-align: middle;
 }
 
-.feature-col > div > div:last-child {
-  padding-left: 20px;
-}
 
 .feature-col .feature-icon {
   width: 70px;
