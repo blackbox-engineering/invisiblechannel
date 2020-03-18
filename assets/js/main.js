@@ -100,11 +100,7 @@
     zIndex: '50'
   });
 
-  // Counting numbers
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
+
 
   // Tooltip & popovers
   $('[data-toggle="tooltip"]').tooltip();
