@@ -519,13 +519,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ==================================================
   Features Styling
   ================================================== */
+.about {
+  background-color: #000;
+  color: #fff;
+}
+.about p {
+  color: #fff;
+}
 .about h2 {
   color:#A55CFF;
 }
 
 .features {
   padding-bottom: 45px;
-  background-color: #000;
 }
 
 .features .container {
