@@ -609,7 +609,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Portfolio Styling
   ================================================== */
 .portfolio {
-  background-color: #edf6ff;
+  background-color: #fff;
   padding-bottom: 0;
 }
 
@@ -640,12 +640,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   vertical-align: middle;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   top: 0;
   left: 0;
   text-align: center;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
   transition: all 0.3s ease;
 }
 
@@ -664,6 +663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   opacity: .75;
   padding: 0 45px;
+
 }
 
 .portfolio-grid .row > div .card:hover .portfolio-over {
