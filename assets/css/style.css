@@ -418,7 +418,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-repeat: no-repeat;
   background-position: center center;
   background-color:black;
-  padding: 150px 0;
+  padding: 100px 0;
   color: #fff;
   width: 100%;
   height: 100vh;
@@ -445,7 +445,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .hero-brand {
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   display: inline-block;
 }
 
@@ -519,10 +519,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ==================================================
   Features Styling
   ================================================== */
-.features {
-  padding-bottom: 45px;
+.about h2 {
+  color:#A55CFF;
 }
 
+.features {
+  padding-bottom: 45px;
+  background-color: #000;
+}
+
+.features .container {
+    background-color: #fff;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 5px;
+  }
 .features h2 {
   color: #199EB8;
 }
@@ -756,13 +767,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   Contact Section
   ================================================== */
 #contact {
-  background: #f7f7f7;
+  background: #000;
   padding: 80px 0;
 }
 
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #199EB8;
+  color: #fff;
 }
 
 #contact .info i {
